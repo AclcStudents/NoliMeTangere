@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    background-color: burlywood;
+}
+.navbar ul{
+    font-size: x-large;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex; /* Use flexbox */
+    justify-content: flex-end; /* Align items to the right */
+}
+.container {
+    display: flex;
+}
+
+aside {
+    flex: 1;
+    margin-right: 20px; /* Add margin to create space between the sidebar and the navigation */
+}
+
+.navbar {
+    flex: 3; /* Adjust flex value as needed */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: white;
+}
+
+.Word {
+    flex: 1;
+    text-align: justify;
+    font-size: 25px;
+    margin: 50px 50px 50px 140px; /* Adjust the margin values to your preference */
+    width: 1000px;
+}
